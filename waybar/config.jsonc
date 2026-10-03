@@ -1,0 +1,22 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "modules-left": ["hyprland/workspaces", "hyprland/mode"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["cpu", "memory", "battery", "clock"],
+    
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}"
+    },
+    "clock": {
+        "format": "{:%Y-%m-%d %p %I:%M}"
+    },
+        "memory": {
+        "format": "{used:0.1f}GB",
+        "interval": 30
+    }
+}
+

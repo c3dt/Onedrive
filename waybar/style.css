@@ -1,0 +1,40 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #222222; /* i3bar 기본 다크 배경색 */
+    color: #ffffff;
+    border-bottom: 1px solid #444444;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: #444444;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+}
+
+/* 활성화된 워크스페이스 */
+#workspaces button.focused,
+#workspaces button.active {
+    background: #555555; /* i3 활성 창 포인트 색상 */
+    color: #ffffff;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* 마우스 호버 시 */
+#workspaces button:hover {
+    background: #444444;
+    color: #ffffff;
+}
+
+#clock, #battery, #cpu, #memory, #tray {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
