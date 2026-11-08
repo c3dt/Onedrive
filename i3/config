@@ -21,7 +21,7 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec alacritty
 bindsym $mod+q kill
 bindsym $mod+d exec "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#777777' -sf '#EEEEEE' -fn 'monospace-10' -p 'dmenu'"
-bindsym $mod+e exec pcmanfm
+bindsym $mod+e exec GTK_THEME=Adwaita:dark pcmanfm
 
 bindsym $mod+j focus left
 bindsym $mod+k focus right
